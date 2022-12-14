@@ -1,3 +1,15 @@
+# Connection to create node_model and Angular pages
+  npm i @angular/cli -g
+
+ng new "name of app"
+
+ng serve - run 
+
+https://pixinvent.com/bootstrap-admin-template/robust/html/ltr/vertical-compact-menu-template/layout-content-right-sidebar.html 
+
+ng g c "name of the component"
+
+  
 # Sidenav
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
