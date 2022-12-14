@@ -1,0 +1,45 @@
+.icon{
+  padding: 10px;
+  border-radius: 5px;
+}
+.icon a{
+  text-decoration: none;
+  color: #000;
+  font-weight:600;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.breadcrum{
+  background: #CFD3DE;
+}
+.breadcrum1{
+  justify-content: space-between;
+  align-content: center;
+  padding:3px;
+}
+.dropdown{
+  padding:10px;
+  
+}
+.location .img{
+  background: #cd6601;
+  padding: 2px 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 5px 5px 0px;
+}
+.button{
+  border-radius: 5px 0px 0px 5px ;
+  border: none;
+  background-color: #f68701;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+.home .img{
+  background:#532566 ;
+  padding: 3px;
+  border-radius: 5px;
+  color: #fff;
+}

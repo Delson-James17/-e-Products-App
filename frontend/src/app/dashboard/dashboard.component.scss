@@ -1,0 +1,111 @@
+.icon{
+  padding: 10px;
+  border-radius: 5px;
+}
+.icon a{
+  text-decoration: none;
+  color: #000;
+  font-weight:600;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.breadcrum{
+  background: #CFD3DE;
+}
+.breadcrum1{
+  justify-content: space-between;
+  align-content: center;
+  padding:3px;
+}
+.dropdown{
+  padding:10px;
+  
+}
+.location .img{
+  background: #cd6601;
+  padding: 2px 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 5px 5px 0px;
+}
+.button{
+  border-radius: 5px 0px 0px 5px ;
+  border: none;
+  background-color: #f68701;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+.home .img{
+  background:#532566 ;
+  padding: 3px;
+  border-radius: 5px;
+  color: #fff;
+}
+.body{
+  background: #e7e7ef;
+  padding: 20px;
+}
+.header h1{
+  font-weight: 100;
+}
+
+  .sidebar-right{
+    float: right;
+   
+  }
+  .content-left{
+    float: left;
+    width: calc(100% - 230px);
+  
+  }
+  .card-text{
+    font-size: 11px;
+    padding-left: 0;
+  }
+  .orange{
+    background: #cd6601;
+    color: #fff;
+    padding: 10px 20px;
+
+  }
+  .icon-up{
+    color:white; padding:2px; background-color: #532566 ;
+    }
+   h1.card-title {
+    font-size:60px ;
+   }
+   .section3{
+      text-align: center;
+      color: #fff;
+      padding: 5px;
+      .pink{
+      background: #df355a;
+      padding: 3px;
+      }
+      .orange1{
+        background: #cd6601;
+        padding: 3px;
+      }
+      .blue{
+        background: #22a6f1;
+        padding: 3px;
+      }
+      .violet{
+        background: #90288b;
+        padding: 3px;
+      }
+      .lorange{
+        background: #f68701;
+        padding: 3px;
+      }
+      .lgreen{
+        background: #1fc9c0;
+        padding: 3px;
+      }
+   }
+   .dashbord-body{
+    margin-bottom: 100px;
+   }
+  

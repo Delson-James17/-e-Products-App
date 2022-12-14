@@ -1,0 +1,18 @@
+.header{
+  background: #e9ecf1;
+  transition: all .5s ease;
+  top: 0;
+  margin-bottom: 60px;
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  background: #532566;
+  color: #e9ecf1;
+  .icon{
+    font-size: 30px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+}

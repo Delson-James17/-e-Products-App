@@ -1,0 +1,21 @@
+    <div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed': ''">
+    <div class="logo-container">
+        <button class="iconbar" (click)="toggleCollapse()"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="logo-imagelogo-image p-2 mb-5" @fadeInOut *ngIf="collapsed">
+        <a href="../dashboard"><img src="../../assets/2022_10_11_17_10_07_Front_End_Dev_exam.pdf_and_17_more_pages_Personal_Microsoft_Edge.jpg" alt="" width="100%" ></a>
+    </div>
+    <ul class="sidenav-nav">
+        <li class="sidenav-nav-item" *ngFor="let data of navData">
+            <a class="sidenav-nav-link" [routerLink]="[data.routeLink]" 
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact: true}"
+            >
+                <i class="sidenav-link-icon" [class]="data.icon"></i>
+                <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">
+                    {{data.name}}
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>

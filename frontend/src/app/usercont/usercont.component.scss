@@ -1,0 +1,31 @@
+.header {
+  color: #000;
+  padding: 0;
+  a{
+  text-decoration: none;
+  background:#CFD3DE;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #000;
+  }
+  h1{
+    font-size: 25px;
+  }
+
+}
+.column{
+  justify-content:space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px ;
+}
+.dropdown{
+  background:#532566 ;
+  padding: 3px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #CFD3DE;
+}
